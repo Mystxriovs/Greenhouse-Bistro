@@ -1,6 +1,6 @@
 body {
     background-color: #3e493a;
-    background-image: url("images/Background.jpg");
+    background-image: url("Background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -389,3 +389,15 @@ body {
     padding-top: 15px;
     color: #cccccc;
   }
+
+#refh1 {
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+  /*reference list */
+.reference-list {
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+}
