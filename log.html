@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Greenhouse Bistro - Login</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="log.css"/>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar_container">
+              <a href="/" id="navbar_logo"><img src="images/Logo.png" width="100px" height="100px"/></a>
+              <div class="navbar_toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </div>
+              <ul class="navbar_menu">
+                <li class="navbar_item">
+                  <a href="index.html" class="navbar_links"> Home </a>
+                </li>
+                <li class="navbar_item">
+                  <a href="order.html" class="navbar_links"> Order </a>
+                </li>
+                <li class="navbar_item">
+                  <a href="about.html" class="navbar_links"> About </a>
+                </li>
+                <li class="navbar_item">
+                  <a href="res.html" class="navbar_links"> Reservation </a>
+                </li>
+                <li class="navbar_button">
+                  <a href="log.html" class="button"> Log In </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </header>
+
+    <div class="login-container">
+        <div class="login-card">
+            <h1 class="login-title">Welcome Back</h1>
+            <form action="/login" method="POST">
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="login-button">Login</button>
+            </form>
+            <p class="login-footer">
+                Don't have an account? <a href="sign.html">Sign up</a>
+            </p>
+        </div>
+    </div>
+
+</body>
+    <script src="app.js"></script>
+</html>
