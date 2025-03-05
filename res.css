@@ -222,7 +222,6 @@ textarea:focus {
     color: #ffffff;
     padding: 30px 20px;
     font-family: 'Verdana', sans-serif;
-    text-align: center;
 }
 
 .footer-container {
@@ -292,70 +291,4 @@ textarea:focus {
     text-align: center;
     text-decoration: none;
     color: #ffffff;
-}
-
-@media screen and (max-width: 768px) {
-    .footer-container {
-        flex-direction: column;
-    }
-
-    .footer-about,
-    .footer-links,
-    .footer-social {
-        flex: 1;
-        min-width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .navbar_links {
-        font-size: 1rem;
-    }
-
-    .navbar_menu.active {
-        background: rgba(0, 0, 0, 0.9);
-    }
-
-    .reservation-container {
-        padding: 30px 15px;
-    }
-
-    input[type="date"],
-    input[type="time"] {
-        width: 100%;
-        margin-right: 0;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .navbar_container {
-        padding: 0 10px;
-    }
-
-    .navbar_links {
-        font-size: 1rem;
-        padding: 1rem;
-    }
-
-    .navbar_toggle.bar {
-        width: 25px;
-        height: 3px;
-        background: #ffffff;
-    }
-
-    .reservation-container {
-        padding: 25px 15px;
-    }
-
-    .footer-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .footer ul li {
-        margin-bottom: 15px;
-    }
-
-    .social-icons a {
-        margin-right: 15px;
-    }
 }
