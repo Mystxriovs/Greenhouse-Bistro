@@ -16,7 +16,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem; /* Font size adjustment for navbar */
+    font-size: 1.2rem;
     position: sticky;
     top: 0;
     z-index: 999;
@@ -185,7 +185,7 @@ body {
 
 .main_content p {
     margin-top: 1rem;
-    font-size: 1.2rem; /* Reduced font size */
+    font-size: 1.2rem;
     font-weight: 700;
     color: #ffffff;
 }
@@ -281,7 +281,7 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 10px; 
+    padding: 10px;
 }
 
 .about-text {
@@ -289,13 +289,13 @@ section {
 }
 
 .about-text h3 {
-    font-size: 2rem; /* Reduced font size for better fit */
+    font-size: 2rem;
     font-weight: bold;
     margin-bottom: 1rem;
 }
 
 .about-text p {
-    font-size: 1rem; /* Smaller font size for better readability */
+    font-size: 1rem;
     line-height: 1.6;
 }
 
@@ -352,14 +352,14 @@ section {
 
 .process-container {
     display: flex;
-    justify-content: center; /* Center horizontally */
+    justify-content: center;
     align-items: center;
-    gap: 20px; /* Adjust spacing between items */
+    gap: 20px;
     margin-top: 15px;
     padding: 0 20px;
     width: 100%;
     max-width: 1300px;
-    flex-wrap: wrap; /* Allows wrapping of process boxes on smaller screens */
+    flex-wrap: wrap;
 }
 
 .process-box {
@@ -367,25 +367,25 @@ section {
     background: #3e493a;
     padding: 20px;
     border-radius: 10px;
-    width: 250px; /* Adjust width to your preferred size */
-    max-width: 300px; /* Maximum width for larger screens */
+    width: 250px;
+    max-width: 300px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin: 10px; /* Adds spacing around the process boxes */
+    margin: 10px;
 }
 
 @media screen and (max-width: 768px) {
     .process-container {
-        flex-direction: row; /* Keep the items horizontally aligned on wider screens */
+        flex-direction: row;
     }
 
     .process-box {
-        width: 30%; /* Set the width to a fraction of the container */
+        width: 30%;
     }
 }
 
 @media screen and (max-width: 480px) {
     .process-box {
-        width: 90%; /* Adjust width for very small screens */
+        width: 90%;
     }
 }
 
