@@ -4,12 +4,14 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: "Poppins", serif;
 }
+
 .navbar {
     height: 80px;
     display: flex;
@@ -20,6 +22,7 @@ body {
     top: 0;
     z-index: 999;
 }
+
 .navbar_container {
     display: flex;
     justify-content: space-between;
@@ -30,21 +33,25 @@ body {
     margin: 0 auto;
     padding: 0 50px;
 }
+
 #navbar_logo {
     display: flex;
     align-items: center;
     justify-items: center;
     cursor: pointer;
 }
+
 .navbar_menu {
     display: flex;
     align-items: center;
     list-style: none;
     text-align: center;
 }
+
 .navbar_item {
     height: 80px;
 }
+
 .navbar_links {
     color: #ffffff;
     display: flex;
@@ -54,6 +61,7 @@ body {
     padding: 0 1rem;
     height: 100%;
 }
+
 .navbar_button {
     display: flex;
     justify-content: center;
@@ -61,6 +69,7 @@ body {
     padding: 0 1rem;
     width: 100%;
 }
+
 .button {
     display: flex;
     justify-content: center;
@@ -75,15 +84,18 @@ body {
     background: #505f4b;
     color: #ffffff;
 }
+
 .button:hover {
     color: black;
     transition: all 0.3s ease;
 }
+
 .navbar_link:hover {
     color: #505f4b;
     transition: all 0.3s ease;
 }
-@media screen and (max-width: 960px){
+
+@media screen and (max-width: 960px) {
     .navbar_container {
         display: flex;
         justify-content: space-between;
@@ -166,9 +178,6 @@ body {
     }
 }
 
-
-/* Hero index */
-
 .main_container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -181,21 +190,25 @@ body {
     max-width: 1300px;
     padding: 0 50px;
 }
+
 .main_content h1{
     margin-top: 100px;
     font-size: 2rem;
     color:#ffffff;
 }
+
 .main_content h2{
     font-size: 1rem;
     color: #ffffff;
 }
+
 .main_content p {
     margin-top: 1rem;
     font-size: 1.5rem;
     font-weight: 700;
     color: #ffffff;
 }
+
 .main_button {
     font-size: 1rem;
     padding: 14px 32px;
@@ -209,12 +222,14 @@ body {
     transition: all 0.35s;
     outline: none;
 }
+
 .main_button a {
     position: relative;
     z-index: 2;
     color: #ffffff;
     text-decoration: none;
 }
+
 .main_button:after {
     position: absolute;
     content: '';
@@ -226,12 +241,15 @@ body {
     transition: all 0.35s;
     border-radius: 4px;
 }
+
 .main_button:hover {
     color:black;
 }
+
 .main_button:hover:after {
     width: 100%;
 }
+
 @media screen and (max-width: 768px) {
     .main_container {
         display: grid;
@@ -286,19 +304,23 @@ body {
     text-align: center;
     height: 500px;
 }
+
 .info h1 {
     margin-top: 20px;
     font-size: 2.5rem;
 }
+
 .info_container {
     margin-top: 100px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
+
 .info_card {
     padding: 5px;
 }
+
 .info_btn {
     margin: 40px;
     display: flex;
@@ -314,6 +336,7 @@ body {
     height: 50px;
     padding: 15px;
 }
+
 .info_btn:hover {
     color: black;
     transition: all 0.3s ease;
@@ -325,77 +348,77 @@ body {
     padding: 30px 20px;
     font-family: 'Verdana', sans-serif;
     justify-content: end;
-  }
-  
-  .footer-container {
+}
+
+.footer-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
-  }
-  
-  .footer-about,
-  .footer-links,
-  .footer-social {
+}
+
+.footer-about,
+.footer-links,
+.footer-social {
     flex: 1;
     min-width: 200px;
-  }
-  
-  .footer h3 {
+}
+
+.footer h3 {
     font-size: 1.5rem;
     margin-bottom: 15px;
     color: #ffffff;
-  }
-  
-  .footer p {
+}
+
+.footer p {
     font-size: 1rem;
     line-height: 1.6;
-  }
-  
-  .footer ul {
+}
+
+.footer ul {
     list-style: none;
     padding: 0;
-  }
-  
-  .footer ul li {
+}
+
+.footer ul li {
     margin-bottom: 10px;
-  }
-  
-  .footer ul li a {
+}
+
+.footer ul li a {
     text-decoration: none;
     color: #ffffff;
     transition: color 0.3s ease;
-  }
-  
-  .footer ul li a:hover {
+}
+
+.footer ul li a:hover {
     color: #83c139;
-  }
-  
-  .social-icons a {
+}
+
+.social-icons a {
     display: inline-block;
     margin-right: 10px;
     transition: transform 0.3s ease;
-  }
-  
-  .social-icons a:hover {
+}
+
+.social-icons a:hover {
     transform: scale(1.2);
-  }
-  
-  .footer-bottom {
+}
+
+.footer-bottom {
     text-align: center;
     margin-top: 20px;
     font-size: 0.9rem;
     border-top: 1px solid #ffffff;
     padding-top: 15px;
     color: #cccccc;
-  }
+}
 
 #refh1 {
     text-align: center;
     text-decoration: none;
     color: #ffffff;
 }
-  /*reference list */
+
 .reference-list {
     text-align: center;
     text-decoration: none;
