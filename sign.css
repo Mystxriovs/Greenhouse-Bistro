@@ -202,10 +202,10 @@ h1 {
 
 .form-group input {
   width: 100%;
-  padding: 1.5rem;
+  padding: 1rem;
   border-radius: 5px;
   border: 1px solid #ccc;
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-top: 0.5rem;
   background-color: #f4f4f4;
 }
@@ -271,8 +271,8 @@ p {
   }
 
   .form-group input {
-    padding: 1.2rem;
-    font-size: 1.1rem;
+    padding: 1rem;
+    font-size: 1rem;
   }
 
   .submit-btn {
@@ -296,8 +296,8 @@ p {
   }
 
   .form-group input {
-    padding: 1.2rem;
-    font-size: 1.1rem;
+    padding: 0.8rem;
+    font-size: 0.95rem;
   }
 
   .submit-btn {
