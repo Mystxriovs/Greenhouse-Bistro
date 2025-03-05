@@ -1,14 +1,12 @@
 body {
+    background-color: #3e493a;
     background-image: url("Background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
-    margin: 0;
-    font-family: "Poppins", sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 * {
