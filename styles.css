@@ -6,6 +6,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 * {
@@ -24,17 +25,15 @@ body {
     position: sticky;
     top: 0;
     z-index: 999;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .navbar_container {
     display: flex;
     justify-content: space-between;
-    height: 80px;
-    z-index: 1;
     width: 100%;
     max-width: 1300px;
-    margin: 0 auto;
-    padding: 0 2vw;
+    padding: 0 5vw;
 }
 
 #navbar_logo {
@@ -101,7 +100,7 @@ body {
     .navbar_container {
         padding: 0 2rem;
     }
-    
+
     .navbar_menu {
         display: grid;
         grid-template-columns: auto;
@@ -172,7 +171,6 @@ body {
     justify-self: center;
     margin: 0 auto;
     height: 90vh;
-    z-index: 1;
     width: 100%;
     max-width: 1300px;
     padding: 0 5vw;
@@ -242,7 +240,6 @@ body {
         display: grid;
         grid-template-columns: auto;
         align-items: center;
-        justify-self: center;
         width: 100%;
         margin: 0 auto;
         height: 90vh;
