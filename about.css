@@ -306,27 +306,14 @@ section {
 
 .process-container {
     display: flex;
-    justify-content: center;  /* Center horizontally */
+    justify-content: center; /* Center horizontally */
     align-items: center;
-    gap: 20px;  /* Adjust spacing between items */
+    gap: 20px; /* Adjust spacing between items */
     margin-top: 15px;
     padding: 0 20px;
     width: 100%;
     max-width: 1300px;
-    flex-wrap: wrap;  /* Allows wrapping of process boxes on smaller screens */
-}
-
-@media screen and (max-width: 768px) {
-    .process-container {
-        flex-direction: column;  /* Stack the boxes vertically on smaller screens */
-        align-items: center;
-        gap: 20px;  /* Adjust gap on smaller screens */
-    }
-
-    .process-box {
-        width: 90%;  /* Allow the process boxes to take up more width on smaller screens */
-        max-width: 500px;  /* Set a maximum width for the boxes on smaller screens */
-    }
+    flex-wrap: wrap; /* Allows wrapping of process boxes on smaller screens */
 }
 
 .process-box {
@@ -334,10 +321,26 @@ section {
     background: #3e493a;
     padding: 20px;
     border-radius: 10px;
-    width: 250px;  /* Adjust width to your preferred size */
-    max-width: 300px;  /* Maximum width for larger screens */
+    width: 250px; /* Adjust width to your preferred size */
+    max-width: 300px; /* Maximum width for larger screens */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin: 10px;  /* Adds spacing around the process boxes */
+    margin: 10px; /* Adds spacing around the process boxes */
+}
+
+@media screen and (max-width: 768px) {
+    .process-container {
+        flex-direction: row; /* Keep the items horizontally aligned on wider screens */
+    }
+
+    .process-box {
+        width: 30%; /* Set the width to a fraction of the container */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .process-box {
+        width: 90%; /* Adjust width for very small screens */
+    }
 }
 
 .footer {
@@ -389,24 +392,3 @@ section {
 }
 
 .footer ul li a:hover {
-    color: #83c139;
-}
-
-.social-icons a {
-    display: inline-block;
-    margin-right: 10px;
-    transition: transform 0.3s ease;
-}
-
-.social-icons a:hover {
-    transform: scale(1.2);
-}
-
-.footer-bottom {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 0.9rem;
-    border-top: 1px solid #ffffff;
-    padding-top: 15px;
-    color: #cccccc;
-}
