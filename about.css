@@ -358,6 +358,7 @@ section {
     margin-top: 15px;
     padding: 0 10px;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .process-box {
@@ -365,8 +366,7 @@ section {
     background: #3e493a;
     padding: 10px;
     border-radius: 8px;
-    width: 180px;
-    max-width: 220px;
+    flex: 1 1 180px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin: 8px;
 }
@@ -384,16 +384,15 @@ section {
 
 @media screen and (max-width: 768px) {
     .process-box {
-        width: 45%;
+        flex: 1 1 45%;
     }
 }
 
 @media screen and (max-width: 480px) {
     .process-box {
-        width: 90%;
+        flex: 1 1 90%;
     }
 }
-
 
 .footer {
     background-color: #263326;
