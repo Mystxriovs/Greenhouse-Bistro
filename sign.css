@@ -26,6 +26,7 @@ body {
   top: 0;
   z-index: 999;
   background-color: rgba(0, 0, 0, 0.5);
+  font-family: "Poppins", serif;
 }
 
 .navbar_container {
@@ -165,6 +166,7 @@ body {
 }
 
 .signup-container {
+  font-family: "Poppins", serif;
   background-color: rgba(38, 51, 38, 0.8);
   padding: 3vw;
   margin: 3vw auto;
