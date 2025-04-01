@@ -15,9 +15,11 @@ body {
     padding: 0;
     font-family: "Poppins", serif;
 }
+
 .navbarLinks {
     color:#fff;
 }
+
 .navbar {
     color: #fff;
     height: 80px;
@@ -74,6 +76,8 @@ body {
     align-items: right;
     padding: 0 1rem;
     width: 100%;
+    background-color: #3e493a; /* Same as main button */
+    color: white; /* White text for the button */
 }
 
 .navbar-toggler {
@@ -192,11 +196,12 @@ body {
     border-radius: 4px;
     color: #ffffff;
     margin-top: 2rem;
-    background-color: #3e493a;
+    background-color: #3e493a; /* Same as navbar button */
     cursor: pointer;
     position: relative;
     transition: all 0.35s;
     outline: none;
+    text-align: center;
 }
 
 .main_button a {
@@ -243,192 +248,4 @@ body {
 
     .main_content h1 {
         font-size: 1.5rem;
-        margin-top: 2.5rem;
-    }
-
-    .main_content h2 {
-        font-size: 1.25rem;
-    }
-
-    .main_content p {
-        margin-top: 1rem;
-        font-size: 1.5rem;
-    }
-
-    .main_button {
-        padding: 12px 36px;
-        margin: 2.5rem 0;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .main_content h1 {
-        font-size: 1.25rem;
-        margin-top: 3rem;
-    }
-
-    .main_content h2 {
-        font-size: 1.25rem;
-    }
-
-    .main_content p {
-        margin-top: 2rem;
-        font-size: 1.25rem;
-    }
-
-    .main_button {
-        padding: 12px 36px;
-        margin: 2.5rem 0;
-    }
-}
-.info_text {
-    background-color: #3e493a;
-}
-.info {
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    height: 500px;
-}
-
-.info h1 {
-    margin-top: 20px;
-    font-size: 2.5rem;
-}
-
-.row {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.card {
-    padding: 5px;
-    margin: 10px;
-}
-
-.card-body {
-    background-color: #78866b;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.card-title {
-    font-size: 1.5rem;
-}
-
-.card-text {
-    font-size: 1rem;
-    color: #ffffff;
-}
-
-.btn-info {
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    border: none;
-    outline: none;
-    border-radius: 4px;
-    background: #505f4b;
-    color: #ffffff;
-    width: 120px;
-    height: 50px;
-    padding: 15px;
-}
-
-.btn-info:hover {
-    color: black;
-    transition: all 0.3s ease;
-}
-
-.footer {
-    background-color: #263326;
-    color: #ffffff;
-    padding: 30px 20px;
-    font-family: 'Verdana', sans-serif;
-}
-
-.footer-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px;
-}
-
-.footer-about,
-.footer-links,
-.footer-social {
-    flex: 1;
-    min-width: 200px;
-}
-
-.footer h3 {
-    font-size: 1.5rem;
-    margin-bottom: 15px;
-    color: #ffffff;
-}
-
-.footer p {
-    font-size: 1rem;
-    line-height: 1.6;
-}
-
-.footer ul {
-    list-style: none;
-    padding: 0;
-}
-
-.footer ul li {
-    margin-bottom: 10px;
-}
-
-.footer ul li a {
-    text-decoration: none;
-    color: #ffffff;
-    transition: color 0.3s ease;
-}
-
-.footer ul li a:hover {
-    color: #83c139;
-}
-
-.social-icons a {
-    display: inline-block;
-    margin-right: 10px;
-    transition: transform 0.3s ease;
-}
-
-.social-icons a:hover {
-    transform: scale(1.2);
-}
-
-.footer-bottom {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 0.9rem;
-    border-top: 1px solid #ffffff;
-    padding-top: 15px;
-    color: #cccccc;
-}
-.footer_links {
-    color: #fff;
-}
-
-#refh1 {
-    text-align: center;
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.reference-list {
-    text-align: center;
-    text-decoration: none;
-    color: #ffffff;
-}
+        margin-top: 2.
