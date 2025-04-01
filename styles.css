@@ -17,6 +17,7 @@ body {
 }
 
 .navbar {
+  color: #fff;
   height: 80px;
   display: flex;
   justify-content: center;
