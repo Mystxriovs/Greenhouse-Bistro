@@ -51,9 +51,8 @@ body {
     padding: 0 1rem;
     width: 100%;
 }
-.dropdown-menu {
-    background-color: #263326;
-}
+
+
 .main {
     display: grid;
     grid-template-columns: 1fr 1fr;
