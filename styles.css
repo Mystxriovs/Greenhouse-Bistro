@@ -55,7 +55,6 @@ body {
     background-color: #263326;
 }
 .main {
-    background-color: #136119;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
