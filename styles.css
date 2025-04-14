@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6, p, span, a, li, div, section, article, header, footer, .
     grid-template-columns: 1fr 1fr;
     align-items: center;
     margin: 0 auto;
-    height: 90vh;
+    height: 100vh;
     max-width: 1300px;
     padding: 0 5vw;
 }
