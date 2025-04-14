@@ -133,6 +133,7 @@ h1, h2, h3, h4, h5, h6, p, span, a, li, div, section, article, header, footer, .
     font-size: 1.25rem;
     margin-bottom: 1rem;
     font-weight: 700;
+    color: #fff;
 }
 
 .card-text {
