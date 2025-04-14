@@ -172,6 +172,55 @@ h1, h2, h3, h4, h5, h6, p, span, a, li, div, section, article, header, footer, .
     color: #cccccc;
 }
 
+/* hover effects */
+.navbar .navbar-links a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar .navbar-links a:hover {
+    color: #3e493a;
+    transform: scale(1.1);
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.footer ul li a:hover {
+    color: #3e493a;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-body:hover {
+    background-color: #6b7a50;
+}
+
+.main_button:hover {
+    background-color: #556b2f;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+.btn-info:hover {
+    background-color: #3e493a;
+    transform: scale(1.05);
+}
+
+a:hover, .btn-info:hover, .main_button:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
 
 
 /* MOBILE - Small devices (phones, <768px) */
