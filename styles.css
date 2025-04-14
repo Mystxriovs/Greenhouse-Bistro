@@ -116,11 +116,11 @@ h1, h2, h3, h4, h5, h6, p, span, a, li, div, section, article, header, footer, .
 }
 
 .card-title {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .card-text {
-    font-size: 1rem;
+    font-size: 0.5rem;
     color: #ffffff;
 }
 
