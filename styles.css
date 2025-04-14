@@ -116,12 +116,12 @@ h1, h2, h3, h4, h5, h6, p, span, a, li, div, section, article, header, footer, .
     background-color: #556b2f;
 }
 
-.info {
+.info py-5 {
     background-color: #28702b;
     padding: 5rem 0;
 }
 
-.info h1 {
+.info py-5 h1 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
     text-align: center;
