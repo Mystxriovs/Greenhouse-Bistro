@@ -39,6 +39,14 @@ h1, h2, h3, h4, h5, h6, p, span, a, li, div, section, article, header, footer, .
     width: 100px;
     height: 100px;
 }
+.navbar-brand img {
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
 
 .navbar-toggler {
     background-color: #fff;
@@ -361,4 +369,7 @@ a:hover, .btn-success:hover, .main_button:hover {
   .footer-bottom {
     font-size: 1rem;
   }
+}
+img: hover {
+    
 }
