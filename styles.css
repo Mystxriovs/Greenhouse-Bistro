@@ -1,4 +1,3 @@
-/* Global Styles */
 body {
     background-image: url("Background.jpg");
     background-repeat: no-repeat;
@@ -17,12 +16,10 @@ body {
     padding: 0;
 }
 
-/* Text Shadow for multiple elements */
 h1, h2, h3, h4, h5, h6, p, span, a, li, div, section, article, header, footer, .nav-link, .navbar, .navbar-nav, .main_content h1, .main_content h2, .main_content p, .btn-success, .main_button a, .footer, .footer p, .footer ul li a, .card-title, .card-text, .reference-list, #refh1, #footer-links, #navbar-text {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-/* Navbar Styles */
 .navbar {
     height: 80px;
     display: flex;
@@ -79,14 +76,12 @@ h1, h2, h3, h4, h5, h6, p, span, a, li, div, section, article, header, footer, .
     background-color: #556b2f;
 }
 
-/* Hero Section */
 .main {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     padding: 5rem 0;
-    background-color: rgba(0, 0, 0, 0.5);
     color: white;
 }
 
@@ -121,9 +116,8 @@ h1, h2, h3, h4, h5, h6, p, span, a, li, div, section, article, header, footer, .
     background-color: #556b2f;
 }
 
-/* Info Section */
 .info {
-    background-color: #f8f8f8;
+    background-color: #28702b;
     padding: 5rem 0;
 }
 
@@ -156,7 +150,6 @@ h1, h2, h3, h4, h5, h6, p, span, a, li, div, section, article, header, footer, .
     color: #fff;
 }
 
-/* Footer Section */
 .footer {
     background-color: #263326;
     color: #ffffff;
@@ -201,7 +194,6 @@ h1, h2, h3, h4, h5, h6, p, span, a, li, div, section, article, header, footer, .
     color: #cccccc;
 }
 
-/* Hover Effects */
 .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
@@ -228,7 +220,11 @@ a:hover, .btn-success:hover, .main_button:hover {
     cursor: pointer;
 }
 
-/* Media Queries */
+img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
 @media screen and (max-width: 767px) {
   .main {
     flex-direction: column;
@@ -369,7 +365,4 @@ a:hover, .btn-success:hover, .main_button:hover {
   .footer-bottom {
     font-size: 1rem;
   }
-}
-img: hover {
-    
 }
