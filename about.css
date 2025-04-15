@@ -20,7 +20,9 @@ body {
 h1, h2, h3, h4, h5, h6, p, span, a, li, div, section, article, header, footer, .nav-link, .navbar, .navbar-nav, .main_content h1, .main_content h2, .main_content p, .btn-success, .main_button a, .footer, .footer p, .footer ul li a, .card-title, .card-text, .reference-list, #refh1, #footer-links, #navbar-text {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-
+h2 {
+    color: #fff
+}
 .navbar {
     height: 80px;
     display: flex;
