@@ -128,6 +128,10 @@ h1, h2, h3, h4, h5, h6, p, span, a, li, div, section, article, header, footer, .
     text-align: center;
 }
 
+.text-center my-4 {
+    color: #fff;
+}
+
 .card {
     margin-bottom: 1.5rem;
     border: none;
