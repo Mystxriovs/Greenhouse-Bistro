@@ -1,243 +1,204 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Greenhouse Bistro - Menu</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="order.css"/>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Greenhouse Bistro - Menu</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet"/>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="order.css"/>
     </head>
-    <body>
-        <nav class="navbar">
-            <div class="navbar_container">
-                <a href="index.html" id="navbar_logo"><img src="Logo.png" width="100px" height="100px"/></a>
-              <div class="navbar_toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-              </div>
-              <ul class="navbar_menu">
-                <li class="navbar_item">
-                  <a href="index.html" class="navbar_links"> Home </a>
-                </li>
-                <li class="navbar_item">
-                  <a href="order.html" class="navbar_links"> Order </a>
-                </li>
-                <li class="navbar_item">
-                  <a href="about.html" class="navbar_links"> About </a>
-                </li>
-                <li class="navbar_item">
-                  <a href="res.html" class="navbar_links"> Reservation </a>
-                </li>
-                <li class="navbar_button">
-                  <a href="log.html" class="button"> Log In </a>
-                </li>
-              </ul>
+    <body class="text-white">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a href="index.html" id="navbar_logo" class="navbar-brand">
+                    <img src="Logo.png" alt="Logo"/>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link text-white">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="order.html" class="nav-link text-white">Order</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link text-white">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="res.html" class="nav-link text-white">Reservation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="log.html" class="btn btn-success text-white">Log In</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </nav>
+        </nav>
 
-        <h1>Vegetarian Restaurant Menu</h1>
+        <h1 class="text-center my-4">Vegetarian Restaurant Menu</h1>
+        
         <div class="container">
             <section>
                 <h2>Vegetarian Appetizers</h2>
-                <div class="menu-category">
-                    <div class="menu-item">
-                        <img src="asp.jpg" alt="Asparagus Ribbon Crostini">
-                        <div>
-                            <h3>Asparagus Ribbon Crostini</h3>
-                            <p>A delicious combination of thin asparagus ribbons on crispy crostini.</p>
-                            <button class="order-button">Order Now</button>
-                        </div>
-                    </div>
-    
-                    <div class="menu-item">
-                        <img src="pan.jpg" alt="Mushroom Stuffed Phyllo Cups">
-                        <div>
-                            <h3>Mushroom Stuffed Phyllo Cups</h3>
-                            <p>Savory mushrooms inside delicate phyllo dough cups.</p>
-                            <button class="order-button">Order Now</button>
-                        </div>
-                    </div>
-    
-                    <div class="menu-item">
-                        <img src="tws.jpg" alt="Spicy Cheese Twists">
-                        <div>
-                            <h3>Spicy Cheese Twists</h3>
-                            <p>Crunchy, cheesy twists with a spicy kick.</p>
-                            <button class="order-button">Order Now</button>
-                        </div>
-                    </div>
-    
-                    <div class="menu-item">
-                        <img src="guac.jpg" alt="Charred Vegetable Guacamole">
-                        <div>
-                            <h3>Charred Vegetable Guacamole</h3>
-                            <p>Guacamole with a smoky twist, featuring charred vegetables.</p>
-                            <button class="order-button">Order Now</button>
-                        </div>
-                    </div>
-    
-                    <div class="menu-item">
-                        <img src="egg.jpg" alt="Eggplant Rollup">
-                        <div>
-                            <h3>Eggplant Rollup</h3>
-                            <p>Grilled eggplant rolled up with rich cheese and herbs.</p>
-                            <button class="order-button">Order Now</button>
-                        </div>
-                    </div>
-    
-                    <div class="menu-item">
-                        <img src="warm.jpg" alt="Warm Cheese and Spicy Pecan Dip">
-                        <div>
-                            <h3>Warm Cheese and Spicy Pecan Dip</h3>
-                            <p>Creamy cheese dip with a spicy pecan topping.</p>
-                            <button class="order-button">Order Now</button>
-                        </div>
-                    </div>
-    
-                    <div class="menu-item">
-                        <img src="bean.jpg" alt="Mini Black Bean and Cheese Enchiladas">
-                        <div>
-                            <h3>Mini Black Bean and Cheese Enchiladas</h3>
-                            <p>Miniature enchiladas with black beans and cheese.</p>
-                            <button class="order-button">Order Now</button>
-                        </div>
-                    </div>
-    
-                    <div class="menu-item">
-                        <img src="mini.jpg" alt="Mini Deviled Potatoes">
-                        <div>
-                            <h3>Mini Deviled Potatoes</h3>
-                            <p>A tasty twist on the classic deviled eggs, made with potatoes.</p>
-                            <button class="order-button">Order Now</button>
-                        </div>
-                    </div>
-                </div>
-            </section>
-    
-            <section>
-                <h2>Delicious Breakfasts</h2>
-                <div class="menu-category">
-                    <div class="menu-item">
-                        <img src="omel.jpg" alt="Omelettes">
-                        <div>
-                            <h3>Omelettes</h3>
-                            <p>Veggie and cheese-filled omelette with choices like tomatoes, spinach, mushrooms, and cheeses.</p>
-                            <button class="order-button">Order Now</button>
-                        </div>
-                    </div>
-    
-                    <div class="menu-item">
-                        <img src="frit.jpg" alt="Frittatas">
-                        <div>
-                            <h3>Frittatas</h3>
-                            <p>Colorful frittatas served in cast iron skillets.</p>
-                            <button class="order-button">Order Now</button>
-                        </div>
-                    </div>
-    
-                    <div class="menu-item">
-                        <img src="huevo.jpg" alt="Huevos Rancheros">
-                        <div>
-                            <h3>Huevos Rancheros</h3>
-                            <p>Traditional Mexican breakfast with eggs, tortillas, refried beans, and salsa.</p>
-                            <button class="order-button">Order Now</button>
-                        </div>
-                    </div>
-                </div>
-            </section>
-    
-            <section>
-                <h2>Vegetarian Lunches</h2>
-                <div class="menu-category">
-                    <div class="menu-item">
-                        <img src="burr.jpg" alt="Bean Burritos">
-                        <div>
-                            <h3>Bean Burritos</h3>
-                            <p>Soft, stuffed burritos with bean, rice, cheese, and your choice of sauces.</p>
-                            <button class="order-button">Order Now</button>
-                        </div>
-                    </div>
-    
-                    <div class="menu-item">
-                        <img src="mac.jpg" alt="Mac and Cheese">
-                        <div>
-                            <h3>Mac and Cheese</h3>
-                            <p>Creamy mac and cheese with a vegetarian twist: veggies or soup on the side.</p>
-                            <button class="order-button">Order Now</button>
-                        </div>
-                    </div>
-                </div>
-            </section>
-    
-            <section>
-                <h2>Meatless Dinners</h2>
-                <div class="menu-category">
-                    <div class="menu-item">
-                        <img src="veg.jpg" alt="Vegetarian Lasagna">
-                        <div>
-                            <h3>Vegetarian Lasagna</h3>
-                            <p>Layers of fresh vegetables, rich cheeses, and fragrant spices.</p>
-                            <button class="order-button">Order Now</button>
-                        </div>
-                    </div>
-    
-                    <div class="menu-item">
-                        <img src="pizza.jpg" alt="Vegetable Pizza">
-                        <div>
-                            <h3>Vegetable Pizza</h3>
-                            <p>A pizza loaded with seasonal veggies like tomatoes, peppers, mushrooms, and olives.</p>
-                            <button class="order-button">Order Now</button>
-                        </div>
-                    </div>
-    
-                    <div class="menu-item">
-                        <img src="ragu.jpg" alt="Charred Vegetable Ragu">
-                        <div>
-                            <h3>Charred Vegetable Ragu</h3>
-                            <p>A filling ragu made with roasted veggies and tomato-based sauce.</p>
-                            <button class="order-button">Order Now</button>
-                        </div>
-                    </div>
-    
-                    <div class="menu-item">
-                        <img src="taco.jpg" alt="Meatless Tacos">
-                        <div>
-                            <h3>Meatless Tacos</h3>
-                            <p>Delicious taco fillings like jackfruit or avocado, with tortillas that are completely vegetarian.</p>
-                            <button class="order-button">Order Now</button>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="asp.jpg" class="card-img-top" alt="Asparagus Ribbon Crostini">
+                            <div class="card-body">
+                                <h5 class="card-title text-white">Asparagus Ribbon Crostini</h5>
+                                <p class="card-text text-white">A delicious combination of thin asparagus ribbons on crispy crostini.</p>
+                                <button class="btn btn-success text-white">Order Now</button>
+                            </div>
                         </div>
                     </div>
 
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="pan.jpg" class="card-img-top" alt="Mushroom Stuffed Phyllo Cups">
+                            <div class="card-body">
+                                <h5 class="card-title text-white">Mushroom Stuffed Phyllo Cups</h5>
+                                <p class="card-text text-white">Savory mushrooms inside delicate phyllo dough cups.</p>
+                                <button class="btn btn-success text-white">Order Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="tws.jpg" class="card-img-top" alt="Spicy Cheese Twists">
+                            <div class="card-body">
+                                <h5 class="card-title text-white">Spicy Cheese Twists</h5>
+                                <p class="card-text text-white">Crunchy, cheesy twists with a spicy kick.</p>
+                                <button class="btn btn-success text-white">Order Now</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
-            <footer class="footer">
-                <div class="footer-container">
-                  <div class="footer-links">
-                    <h3>Quick Links</h3>
-                    <ul>
-                      <li><a href="order.html">Our Menu</a></li>
-                      <li><a href="about.html">Our Story</a></li>
-                    </ul>
-                  </div>
-                  <div class="footer-social">
-                    <h3>Connect with Us</h3>
-                    <div class="social-icons">
-                        <a href="https://facebook.com" target="_blank" aria-label="Facebook">
-                            <img src="facebook.png" alt="Facebook Icon" width="25px" height="25px">
-                          </a>
-                          <a href="https://twitter.com" target="_blank" aria-label="Twitter">
-                            <img src="twitter.png" alt="Twitter Icon" width="25px" height="25px">
-                          </a>
-                          <a href="https://instagram.com" target="_blank" aria-label="Instagram">
-                            <img src="instagram.png" alt="Instagram Icon" width="25px" height="25px">
-                      </a>
+
+            <section>
+                <h2>Delicious Breakfasts</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="omel.jpg" class="card-img-top" alt="Omelettes">
+                            <div class="card-body">
+                                <h5 class="card-title text-white">Omelettes</h5>
+                                <p class="card-text text-white">Veggie and cheese-filled omelette with choices like tomatoes, spinach, mushrooms, and cheeses.</p>
+                                <button class="btn btn-success text-white">Order Now</button>
+                            </div>
+                        </div>
                     </div>
-                  </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="frit.jpg" class="card-img-top" alt="Frittatas">
+                            <div class="card-body">
+                                <h5 class="card-title text-white">Frittatas</h5>
+                                <p class="card-text text-white">Colorful frittatas served in cast iron skillets.</p>
+                                <button class="btn btn-success text-white">Order Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="huevo.jpg" class="card-img-top" alt="Huevos Rancheros">
+                            <div class="card-body">
+                                <h5 class="card-title text-white">Huevos Rancheros</h5>
+                                <p class="card-text text-white">Traditional Mexican breakfast with eggs, tortillas, refried beans, and salsa.</p>
+                                <button class="btn btn-success text-white">Order Now</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="footer-bottom">
-                  <p>&copy; 2025 Greenhouse Bistro. All Rights Reserved. | Crafted with 🌱 for a greener future.</p>
+            </section>
+
+            <section>
+                <h2>Vegetarian Lunches</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="burr.jpg" class="card-img-top" alt="Bean Burritos">
+                            <div class="card-body">
+                                <h5 class="card-title text-white">Bean Burritos</h5>
+                                <p class="card-text text-white">Soft, stuffed burritos with bean, rice, cheese, and your choice of sauces.</p>
+                                <button class="btn btn-success text-white">Order Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="mac.jpg" class="card-img-top" alt="Mac and Cheese">
+                            <div class="card-body">
+                                <h5 class="card-title text-white">Mac and Cheese</h5>
+                                <p class="card-text text-white">Creamy mac and cheese with a vegetarian twist: veggies or soup on the side.</p>
+                                <button class="btn btn-success text-white">Order Now</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </footer>
-        </body>
-</html>
+            </section>
+
+            <section>
+                <h2>Meatless Dinners</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="veg.jpg" class="card-img-top" alt="Vegetarian Lasagna">
+                            <div class="card-body">
+                                <h5 class="card-title text-white">Vegetarian Lasagna</h5>
+                                <p class="card-text text-white">Layers of fresh vegetables, rich cheeses, and fragrant spices.</p>
+                                <button class="btn btn-success text-white">Order Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="pizza.jpg" class="card-img-top" alt="Vegetable Pizza">
+                            <div class="card-body">
+                                <h5 class="card-title text-white">Vegetable Pizza</h5>
+                                <p class="card-text text-white">A pizza loaded with seasonal veggies like tomatoes, peppers, mushrooms, and olives.</p>
+                                <button class="btn btn-success text-white">Order Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="ragu.jpg" class="card-img-top" alt="Charred Vegetable Ragu">
+                            <div class="card-body">
+                                <h5 class="card-title text-white">Charred Vegetable Ragu</h5>
+                                <p class="card-text text-white">A filling ragu made with roasted veggies and tomato-based sauce.</p>
+                                <button class="btn btn-success text-white">Order Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="taco.jpg" class="card-img-top" alt="Meatless Tacos">
+                            <div class="card-body">
+                                <h5 class="card-title text-white">Meatless Tacos</h5>
+                                <p class="card-text text-white">Delicious taco fillings like jackfruit or avocado, with tortillas that are completely vegetarian.</p>
+                                <button class="btn btn-success text-white">Order Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer bg-dark py-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3 class="text-white">Quick Links</h3>
+                            <ul class="list-unstyled">
+                                <li><a href="order.html" class="text-white">Our Menu</a></li>
+                                <li><a href="about
