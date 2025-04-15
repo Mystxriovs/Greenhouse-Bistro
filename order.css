@@ -1,20 +1,39 @@
-/* General Body Styling */
 body {
-    background-image: url("background.jpg");
-    font-family: 'Poppins', sans-serif;
-    background-color: #f4f4f4;
+    background-image: url("Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: "Poppins", serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    color: #333;
 }
 
-/* Navbar Styling */
+h1, h2, h3, h4, h5, h6, p, span, a, li, div, section, article, header, footer, .nav-link, .navbar, .navbar-nav, .main_content h1, .main_content h2, .main_content p, .btn-success, .main_button a, .footer, .footer p, .footer ul li a, .card-title, .card-text, .reference-list, #refh1, #footer-links, #navbar-text {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
 .navbar {
-    background-color: #2d3b2f;
-    padding: 15px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0 1rem;
 }
 
-.navbar-brand img {
+.navbar .navbar-brand img {
     width: 100px;
     height: 100px;
 }
@@ -22,29 +41,31 @@ body {
 .navbar-nav {
     display: flex;
     justify-content: flex-end;
+    gap: 1rem;
 }
 
-.nav-item .nav-link {
-    color: #fff;
-    padding: 10px 15px;
+.navbar-nav .nav-item .nav-link {
+    color: #ffffff;
     text-decoration: none;
-    font-weight: 600;
-    transition: color 0.3s ease;
+    transition: all 0.3s ease;
+    padding: 6px 12px;
+    border-radius: 4px;
 }
 
-.nav-item .nav-link:hover {
-    color: #b0e57c;
+.navbar-nav .nav-item .nav-link:hover {
+    color: #505f4b;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
-.nav-item .btn-success {
-    color: white;
-    background-color: #4d5d4a;
-    padding: 8px 20px;
-    border-radius: 5px;
+.navbar-nav .nav-item .btn-success {
+    color: #fff;
+    background-color: #3e493a;
+    padding: 10px 20px;
 }
 
-.nav-item .btn-success:hover {
-    background-color: #2b3a2b;
+.navbar-nav .nav-item .btn-success:hover {
+    color: #fff;
+    background-color: #556b2f;
 }
 
 /* Main Section Styling */
