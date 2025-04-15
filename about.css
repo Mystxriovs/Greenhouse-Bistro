@@ -190,6 +190,9 @@ section {
     color: #fff;
 }
 
+.info py-5 {
+    color: #4c5e46
+}
 #about-us {
     margin-top: 100px;
     margin-bottom: 100px;
