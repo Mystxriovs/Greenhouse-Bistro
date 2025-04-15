@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="res.css" />
 </head>
 <body>
-  <!-- Navigation -->
+  
  <!-- Navbar -->
     <nav class="navbar navbar-expand-xl bg-dark text-white">
       <div class="container-fluid">
@@ -38,67 +38,43 @@
       </div>
     </nav>
   
+
   <!-- Reservation Form -->
   <div class="container my-5">
-    <h1 class="mb-4 text-center">Reserve Your Table</h1>
-    <form id="reservation-form">
-      <div class="mb-3">
-        <label for="name" class="form-label">Full Name</label>
-        <input
-          type="text"
-          class="form-control"
-          id="name"
-          name="name"
-          required
-          placeholder="Your full name"
-        />
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <h1 class="mb-4 text-center">Reserve Your Table</h1>
+        <form id="reservation-form">
+          <div class="mb-3 text-center">
+            <label for="name" class="form-label">Full Name</label>
+            <input type="text" class="form-control mx-auto" style="max-width: 400px;" id="name" name="name" required placeholder="Your full name" />
+          </div>
+          <div class="mb-3 text-center">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" class="form-control mx-auto" style="max-width: 400px;" id="email" name="email" required placeholder="Your email address" />
+          </div>
+          <div class="mb-3 text-center">
+            <label for="date" class="form-label">Reservation Date</label>
+            <input type="date" class="form-control mx-auto" style="max-width: 400px;" id="date" name="date" required />
+          </div>
+          <div class="mb-3 text-center">
+            <label for="time" class="form-label">Reservation Time</label>
+            <input type="time" class="form-control mx-auto" style="max-width: 400px;" id="time" name="time" required />
+          </div>
+          <div class="mb-3 text-center">
+            <label for="guests" class="form-label">Number of Guests</label>
+            <input type="number" class="form-control mx-auto" style="max-width: 400px;" id="guests" name="guests" min="1" max="20" required placeholder="How many guests?" />
+          </div>
+          <div class="mb-3 text-center">
+            <label for="special-requests" class="form-label">Special Requests</label>
+            <textarea class="form-control mx-auto" style="max-width: 400px;" id="special-requests" name="special-requests" rows="4" placeholder="Any special requests?"></textarea>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-success">Confirm Reservation</button>
+          </div>
+        </form>
       </div>
-      <div class="mb-3">
-        <label for="email" class="form-label">Email Address</label>
-        <input
-          type="email"
-          class="form-control"
-          id="email"
-          name="email"
-          required
-          placeholder="Your email address"
-        />
-      </div>
-      <div class="mb-3">
-        <label for="date" class="form-label">Reservation Date</label>
-        <input type="date" class="form-control" id="date" name="date" required />
-      </div>
-      <div class="mb-3">
-        <label for="time" class="form-label">Reservation Time</label>
-        <input type="time" class="form-control" id="time" name="time" required />
-      </div>
-      <div class="mb-3">
-        <label for="guests" class="form-label">Number of Guests</label>
-        <input
-          type="number"
-          class="form-control"
-          id="guests"
-          name="guests"
-          min="1"
-          max="20"
-          required
-          placeholder="How many guests?"
-        />
-      </div>
-      <div class="mb-3">
-        <label for="special-requests" class="form-label">Special Requests</label>
-        <textarea
-          class="form-control"
-          id="special-requests"
-          name="special-requests"
-          rows="4"
-          placeholder="Any special requests?"
-        ></textarea>
-      </div>
-      <div class="text-center">
-        <button type="submit" class="btn btn-primary">Confirm Reservation</button>
-      </div>
-    </form>
+    </div>
   </div>
 
   <!-- Footer -->
