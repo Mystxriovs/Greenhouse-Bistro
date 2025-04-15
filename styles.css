@@ -80,14 +80,16 @@ h1, h2, h3, h4, h5, h6, p, span, a, li, div, section, article, header, footer, .
 }
 
 .main_content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    max-width: 800px;
-    width: 100%;
-    padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 800px;
+  width: 100%;
+  padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main_content h1 {
