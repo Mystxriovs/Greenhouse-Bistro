@@ -53,6 +53,7 @@ h1, h2, h3, h4, h5, h6, p, span, a, li, div, section, article, header, footer, .
 .navbar-nav .nav-item .nav-link:hover {
     color: #505f4b;
     transition: all 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .navbar-nav .nav-item .btn-success {
