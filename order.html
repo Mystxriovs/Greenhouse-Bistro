@@ -10,27 +10,24 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar">
-        <div class="navbar-brand">
-            <img src="logo.png" alt="Greenhouse Bistro Logo">
+    <nav class="navbar navbar-expand-xl bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="Logo.png" width="100" height="100" alt="Greenhouse Bistro Logo"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link text-light" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link text-light" href="order.html">Order</a></li>
+            <li class="nav-item"><a class="nav-link text-light" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link text-light" href="res.html">Reservation</a></li>
+            <li class="nav-item"><a class="btn btn-success" href="log.html">Log In</a></li>
+          </ul>
         </div>
-        <div class="navbar-nav">
-            <div class="nav-item">
-                <a href="home.html" class="nav-link">Home</a>
-            </div>
-            <div class="nav-item">
-                <a href="menu.html" class="nav-link">Menu</a>
-            </div>
-            <div class="nav-item">
-                <a href="order.html" class="nav-link">Order</a>
-            </div>
-            <div class="nav-item">
-                <a href="contact.html" class="nav-link">Contact</a>
-            </div>
-            <div class="nav-item">
-                <a href="cart.html" class="btn-success">Cart</a>
-            </div>
-        </div>
+      </div>
     </nav>
 
     <!-- Main Content -->
@@ -45,7 +42,7 @@
 
     <!-- Menu Section -->
     <section id="menu" class="info py-5">
-        <h1>Our Menu</h1>
+        <h1 class="text-white">Our Menu</h1>
         <div class="container">
             <!-- Card 1 -->
             <div class="card">
