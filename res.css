@@ -1,198 +1,167 @@
 body {
-    background-image: url("Background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    font-family: "Poppins", serif;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  background-image: url("Background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", serif;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin: 0;
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-h1, h2, h3, h4, h5, h6, p, span, a, li, div, section, article, header, footer, .nav-link, .navbar, .navbar-nav, .main_content h1, .main_content h2, .main_content p, .btn-success, .main_button a, .footer, .footer p, .footer ul li a, .card-title, .card-text, .reference-list, #refh1, #footer-links, #navbar-text {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
 }
 
 .navbar {
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 1.2rem;
-    position: sticky;
-    top: 0;
-    z-index: 999;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 0 1rem;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .navbar .navbar-brand img {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
 
-.navbar-nav {
-    display: flex;
-    justify-content: flex-end;
-    gap: 1rem;
+.navbar-nav .nav-link {
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
 }
 
-.navbar-nav .nav-item .nav-link {
-    color: #ffffff;
-    text-decoration: none;
-    transition: all 0.3s ease;
-    padding: 6px 12px;
-    border-radius: 4px;
+.navbar-nav .nav-link:hover {
+  color: #505f4b;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
-.navbar-nav .nav-item .nav-link:hover {
-    color: #505f4b;
-    background-color: rgba(255, 255, 255, 0.1);
+.container h1 {
+  color: white;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+  font-size: 2rem;
 }
 
-.navbar-nav .nav-item .btn-success {
-    color: #fff;
-    background-color: #3e493a;
-    padding: 10px 20px;
+form#reservation-form {
+  background-color: rgba(38, 51, 38, 0.85);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
-.navbar-nav .nav-item .btn-success:hover {
-    color: #fff;
-    background-color: #556b2f;
+form#reservation-form .form-label {
+  color: white;
+  font-weight: 500;
 }
 
-
-.reservation-container {
-    background-color: rgba(38, 51, 38, 0.9);
-    padding: 40px 20px;
-    margin: 50px auto;
-    max-width: 600px;
-    border-radius: 8px;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
-    text-align: left;
-    transition: box-shadow 0.3s ease;
-    width: 90%;
+form#reservation-form input,
+form#reservation-form textarea {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  display: block;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  color: #333;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
 }
 
-.reservation-container:hover {
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+form#reservation-form input:focus,
+form#reservation-form textarea:focus {
+  border-color: #83c139;
+  outline: none;
 }
 
-.form-group {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
+form#reservation-form .btn-success {
+  background-color: #3e493a;
+  border: none;
+  padding: 12px 24px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 10px;
 }
 
-input,
-textarea,
-button.submit-btn {
-    width: 100%;
-    border-radius: 4px;
-    padding: 12px;
-    font-size: 1rem;
-    border: 1px solid #ddd;
-    background-color: #fff;
-    color: #333;
-    transition: border-color 0.3s ease;
-}
-
-input[type="date"],
-input[type="time"] {
-    width: calc(50% - 0.5rem);
-    margin-right: 0.5rem;
-}
-
-input:focus,
-textarea:focus {
-    border-color: #83c139;
-    outline: none;
+form#reservation-form .btn-success:hover {
+  background-color: #556b2f;
+  transform: scale(1.05);
 }
 
 .footer {
-    background-color: #263326;
-    color: #ffffff;
-    padding: 30px 20px;
-    font-family: 'Verdana', sans-serif;
+  background-color: #263326;
+  color: white;
+  padding: 2rem 1rem;
+  margin-top: auto;
+  text-align: center;
+  font-size: 0.9rem;
+  border-top: 1px solid #ffffff;
 }
 
-.footer-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px;
+.footer a {
+  color: white;
+  text-decoration: none;
 }
 
-.footer-about,
-.footer-links,
-.footer-social {
-    flex: 1;
-    min-width: 200px;
+.footer a:hover {
+  color: #83c139;
 }
 
-.footer h3 {
-    font-size: 1.5rem;
-    margin-bottom: 15px;
-    color: #ffffff;
+.footer .social-icons img {
+  filter: brightness(100%);
+  transition: filter 0.3s ease;
 }
 
-.footer p {
+.footer .social-icons img:hover {
+  filter: brightness(70%);
+}
+
+@media (max-width: 768px) {
+  .navbar .navbar-brand img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .container h1 {
+    font-size: 1.6rem;
+  }
+
+  form#reservation-form {
+    padding: 20px;
+  }
+
+  form#reservation-form input,
+  form#reservation-form textarea,
+  form#reservation-form .btn-success {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .container h1 {
+    font-size: 1.4rem;
+  }
+
+  form#reservation-form {
+    padding: 16px;
+  }
+
+  .navbar {
     font-size: 1rem;
-    line-height: 1.6;
-}
+  }
 
-.footer ul {
-    list-style: none;
-    padding: 0;
+  .footer {
+    font-size: 0.8rem;
+  }
 }
-
-.footer ul li {
-    margin-bottom: 10px;
-}
-
-.footer ul li a {
-    text-decoration: none;
-    color: #ffffff;
-    transition: color 0.3s ease;
-}
-
-.footer ul li a:hover {
-    color: #83c139;
-}
-
-.social-icons a {
-    display: inline-block;
-    margin-right: 10px;
-    transition: transform 0.3s ease;
-}
-
-.social-icons a:hover {
-    transform: scale(1.2);
-}
-
-.footer-bottom {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 0.9rem;
-    border-top: 1px solid #ffffff;
-    padding-top: 15px;
-    color: #cccccc;
-}
-
-#refh1 {
-    text-align: center;
-    text-decoration: none;
-    color: #ffffff;
-}
-.btn-success:hover {
-    background-color: #3e493a;
-    transform: scale(1.05);
-}
-
