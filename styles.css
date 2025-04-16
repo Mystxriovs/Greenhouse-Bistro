@@ -1,4 +1,5 @@
 body {
+    background-color: #3e493a;
     background-image: url("Background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -6,14 +7,13 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    font-family: "Poppins", serif;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #fff;
 }
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Poppins", serif;
 }
 
 h1, h2, h3, h4, h5, h6, p, span, a, li, div, section, article, header, footer, .nav-link, .navbar, .navbar-nav, .main_content h1, .main_content h2, .main_content p, .btn-success, .main_button a, .footer, .footer p, .footer ul li a, .card-title, .card-text, .reference-list, #refh1, #footer-links, #navbar-text {
@@ -68,152 +68,6 @@ h1, h2, h3, h4, h5, h6, p, span, a, li, div, section, article, header, footer, .
     background-color: #556b2f;
 }
 
-.main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 5rem 0;
-    color: white;
-    min-height: 100vh;
-}
-
-.main_content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  max-width: 800px;
-  width: 100%;
-  padding: 0 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.main_content h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1.5rem;
-}
-
-.main_content h2 {
-    font-size: 1.5rem;
-    margin-bottom: 1.5rem;
-}
-
-.main_content p {
-    font-size: 1.2rem;
-    margin-bottom: 1.5rem;
-    font-weight: 700;
-}
-
-.main_content .btn-success {
-    background-color: #3e493a;
-    padding: 12px 30px;
-    color: #fff;
-    text-decoration: none;
-}
-
-.main_content .btn-success:hover {
-    background-color: #556b2f;
-}
-
-.info.py-5 {
-    background-color: #4c5e46;
-    padding: 5rem 0;
-}
-
-.info.py-5 h1 {
-    font-size: 2.5rem;
-    margin-bottom: 2rem;
-    text-align: center;
-}
-
-.card {
-    margin-bottom: 1.5rem;
-    border: none;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-}
-
-.card-body {
-    background-color: #78866b;
-    text-align: center;
-    padding: 2rem;
-}
-
-.card-title {
-    font-size: 1.25rem;
-    margin-bottom: 1rem;
-    font-weight: 700;
-    color: #fff;
-}
-
-.card-text {
-    font-size: 1rem;
-    color: #fff;
-}
-
-.footer {
-    background-color: #263326;
-    color: #ffffff;
-    padding: 2rem 0;
-    font-family: 'Verdana', sans-serif;
-}
-
-.footer h3 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-}
-
-.footer p {
-    font-size: 1rem;
-    line-height: 1.6;
-}
-
-.footer ul {
-    list-style: none;
-    padding: 0;
-}
-
-.footer ul li {
-    margin-bottom: 10px;
-}
-
-.footer ul li a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.footer ul li a:hover {
-    color: #3e493a;
-}
-
-.footer-bottom {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 0.9rem;
-    border-top: 1px solid #ffffff;
-    padding-top: 15px;
-    color: #cccccc;
-}
-
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.card-body:hover {
-    background-color: #6b7a50;
-}
-
-.main_button:hover {
-    background-color: #556b2f;
-    color: #ffffff;
-    transform: scale(1.05);
-}
-
 .btn-success:hover {
     background-color: #3e493a;
     transform: scale(1.05);
@@ -229,124 +83,154 @@ img:hover {
     transition: transform 0.3s ease;
 }
 
-/* Media Queries */
-@media screen and (max-width: 767px) {
-    .main_content h1 {
-        font-size: 2rem;
-        margin-top: 60px;
-    }
-
-    .main_content h2 {
-        font-size: 1.2rem;
-    }
-
-    .main_content p {
-        font-size: 1rem;
-    }
-
-    .main_content .btn-success {
-        font-size: 0.9rem;
-        padding: 10px 24px;
-    }
-
-    .card-text {
-        font-size: 0.8rem;
-    }
-
-    .footer h3 {
-        font-size: 1.2rem;
-    }
-
-    .footer p,
-    .footer ul li a {
-        font-size: 0.9rem;
-    }
-
-    .footer-bottom {
-        font-size: 0.8rem;
-    }
+.signup-container {
+  font-family: "Poppins", serif;
+  background-color: rgba(38, 51, 38, 0.8);
+  padding: 3vw;
+  margin: 3vw auto;
+  width: 100%;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
-    .main_content h1 {
-        font-size: 2.3rem;
-    }
-
-    .main_content h2 {
-        font-size: 1.4rem;
-    }
-
-    .main_content p {
-        font-size: 1.2rem;
-    }
-
-    .main_content .btn-success {
-        font-size: 1rem;
-        padding: 12px 28px;
-    }
-
-    .card-title {
-        font-size: 1rem;
-    }
-
-    .card-text {
-        font-size: 0.9rem;
-    }
-
-    .info h1 {
-        font-size: 2.2rem;
-    }
-
-    .footer h3 {
-        font-size: 1.3rem;
-    }
-
-    .footer p,
-    .footer ul li a {
-        font-size: 1rem;
-    }
+.signup-box {
+  background-color: #263326;
+  padding: 3vw 5vw;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  width: 100%;
+  max-width: 400px;
 }
 
-@media screen and (min-width: 992px) {
-    .main_content h1 {
-        font-size: 3rem;
-    }
+h1 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
 
-    .main_content h2 {
-        font-size: 1.75rem;
-    }
+.form-group {
+  margin-bottom: 1rem;
+}
 
-    .main_content p {
-        font-size: 1.3rem;
-    }
+.form-group label {
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 0.5rem;
+  display: block;
+}
 
-    .main_content .btn-success {
-        font-size: 1.1rem;
-        padding: 16px 36px;
-    }
+.form-group input {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  background-color: #f4f4f4;
+}
 
-    .card-title {
-        font-size: 1.1rem;
-    }
+.submit-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background: #505f4b;
+  color: #ffffff;
+  font-size: 1rem;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
 
-    .card-text {
-        font-size: 1rem;
-    }
+.submit-btn:hover {
+  background-color: #83c139;
+  transform: scale(1.05);
+}
 
-    .info h1 {
-        font-size: 2.5rem;
-    }
+p {
+  color: #ccc;
+  text-decoration: none;
+}
 
-    .footer h3 {
-        font-size: 1.6rem;
-    }
+.signin-link {
+  font-size: 0.9rem;
+  color: #ccc;
+  margin-top: 1rem;
+}
 
-    .footer p,
-    .footer ul li a {
-        font-size: 1.1rem;
-    }
+.signin-link a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
 
-    .footer-bottom {
-        font-size: 1rem;
-    }
+.signin-link a:hover {
+  color: #505f4b;
+}
+
+@media screen and (max-width: 768px) {
+  .signup-container {
+    padding: 4vw 2.5vw;
+  }
+
+  .signup-box {
+    padding: 3vw 4vw;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .form-group {
+    margin-bottom: 1rem;
+  }
+
+  .form-group input {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  .submit-btn {
+    padding: 1rem 1.8rem;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .signup-container {
+    padding: 4vw 2.5vw;
+    margin: 4vw 2.5vw;
+  }
+
+  .signup-box {
+    padding: 4vw 5vw;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .form-group input {
+    padding: 0.8rem;
+    font-size: 0.95rem;
+  }
+
+  .submit-btn {
+    padding: 0.8rem 1.2rem;
+    font-size: 1rem;
+  }
+
+  .signin-link a {
+    font-size: 0.8rem;
+  }
 }
