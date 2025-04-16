@@ -1,1 +1,88 @@
+body {
+    background-color: #3e493a;
+    background-image: url("Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+    color: #fff;
+    font-family: "Poppins", serif;
+}
 
+header {
+    text-align: center;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 2rem;
+}
+
+h1#refh1 {
+    font-size: 2.5rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+main {
+    padding: 3rem 2rem;
+}
+
+.reference-list {
+    background-color: rgba(38, 51, 38, 0.8);
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reference-list h2 {
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.reference-list ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.reference-list li {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.reference-list a {
+    color: #83c139;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.reference-list a:hover {
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    h1#refh1 {
+        font-size: 2rem;
+    }
+
+    .reference-list h2 {
+        font-size: 1.5rem;
+    }
+
+    .reference-list li {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1#refh1 {
+        font-size: 1.8rem;
+    }
+
+    .reference-list h2 {
+        font-size: 1.3rem;
+    }
+
+    .reference-list li {
+        font-size: 0.9rem;
+    }
+}
