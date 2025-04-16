@@ -67,11 +67,12 @@ body {
 
 /* Reservation Form Styles */
 .reservation-container {
+    margin: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 60px 20px;
-    width: 100%;
+    width: 50%;
     flex-grow: 1;
 }
 
@@ -125,7 +126,7 @@ body {
     padding: 15px 30px;
     font-size: 1.1rem;
     border: none;
-    border-radius: 6px;
+    border-radius: 5px; 
     cursor: pointer;
     transition: all 0.3s ease;
     width: 100%;
