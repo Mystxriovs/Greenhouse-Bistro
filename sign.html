@@ -8,33 +8,25 @@
     <link rel="stylesheet" href="sign.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="navbar_container">
-          <a href="index.html" id="navbar_logo"><img src="Logo.png" width="100px" height="100px"/></a>
-          <div class="navbar_toggle" id="mobile-menu">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-          </div>
-          <ul class="navbar_menu">
-            <li class="navbar_item">
-              <a href="index.html" class="navbar_links"> Home </a>
-            </li>
-            <li class="navbar_item">
-              <a href="order.html" class="navbar_links"> Order </a>
-            </li>
-            <li class="navbar_item">
-              <a href="about.html" class="navbar_links"> About </a>
-            </li>
-            <li class="navbar_item">
-              <a href="res.html" class="navbar_links"> Reservation </a>
-            </li>
-            <li class="navbar_button">
-              <a href="log.html" class="button"> Log In </a>
-            </li>
+    <nav class="navbar navbar-expand-xl bg-dark text-white">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="Logo.png" width="100" height="100" alt="Greenhouse Bistro Logo"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-nav" aria-controls="navbar-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-nav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link text-light" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link text-light" href="order.html">Order</a></li>
+            <li class="nav-item"><a class="nav-link text-light" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link text-light" href="res.html">Reservation</a></li>
+            <li class="nav-item"><a class="btn btn-success" href="log.html">Log In</a></li>
           </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
 
     <div class="signup-container">
         <div class="signup-box">
