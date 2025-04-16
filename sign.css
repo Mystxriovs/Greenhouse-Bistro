@@ -1,5 +1,4 @@
 body {
-    background-color: #3e493a;
     background-image: url("Background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -7,13 +6,14 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    color: #fff;
+    font-family: "Poppins", serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Poppins", serif;
 }
 
 h1, h2, h3, h4, h5, h6, p, span, a, li, div, section, article, header, footer, .nav-link, .navbar, .navbar-nav, .main_content h1, .main_content h2, .main_content p, .btn-success, .main_button a, .footer, .footer p, .footer ul li a, .card-title, .card-text, .reference-list, #refh1, #footer-links, #navbar-text {
@@ -67,20 +67,7 @@ h1, h2, h3, h4, h5, h6, p, span, a, li, div, section, article, header, footer, .
     color: #fff;
     background-color: #556b2f;
 }
-.btn-success:hover {
-    background-color: #3e493a;
-    transform: scale(1.05);
-}
 
-a:hover, .btn-success:hover, .main_button:hover {
-    text-decoration: none;
-    cursor: pointer;
-}
-
-img:hover {
-    transform: scale(1.1);
-    transition: transform 0.3s ease;
-}
 .signup-container {
   font-family: "Poppins", serif;
   background-color: rgba(38, 51, 38, 0.8);
